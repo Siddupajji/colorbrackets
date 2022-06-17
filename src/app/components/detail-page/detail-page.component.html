@@ -1,0 +1,7 @@
+<app-posts (emituser)="ifselected($event)"></app-posts>
+
+
+<app-user-details *ngFor="let item of ifselect" [user1]="item"></app-user-details>
+<ng-template #infoUser>
+    select user
+</ng-template>

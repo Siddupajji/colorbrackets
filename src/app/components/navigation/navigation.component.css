@@ -1,0 +1,14 @@
+mat-toolbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 64px;
+}
+
+mat-toolbar a {
+    text-decoration: none;
+    font-size: 15px;
+    margin: 15px;
+    color: white;
+}
+
+mat-toolbar .active-link {}
